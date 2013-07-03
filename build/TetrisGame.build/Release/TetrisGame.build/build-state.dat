@@ -1,0 +1,1976 @@
+TTetrisGame
+v7
+r0
+t366713405.172027
+cCheck dependencies
+cProcessInfoPlistFile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Info.plist Resources/Info.plist
+cCopyStringsFile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/English.lproj/InfoPlist.strings Resources/English.lproj/InfoPlist.strings
+cCompileXIB /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/English.lproj/MainMenu.xib
+cCpResource build/Release/TetrisGame.app/Contents/Resources/fps_images.png Resources/fps_images.png
+cCpResource build/Release/TetrisGame.app/Contents/Resources/block.png block.png
+cCopyPlistFile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/bg_Particle.plist bg_Particle.plist
+cCopyPlistFile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/test.plist test.plist
+cCpResource build/Release/TetrisGame.app/Contents/Resources/bg_Sound.m4v bg_Sound.m4v
+cCpResource build/Release/TetrisGame.app/Contents/Resources/icon.icns icon.icns
+cProcessPCH /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch.pth Resources/Tetris_3_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch.pth Resources/Tetris_3_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/Tetris_3AppDelegate.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/main.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameMainLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/BlockSprite.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/BlockManage.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameController.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/DrawingManager.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameClock.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameScoreLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameSelectLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/ButtonSelect.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/ButtonLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameEndLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/SessionConnect.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/TetrisGame normal x86_64
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/Tetris_3AppDelegate.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/main.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameMainLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/BlockSprite.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/BlockManage.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameController.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/DrawingManager.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameClock.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameScoreLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameSelectLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/ButtonSelect.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/ButtonLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameEndLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/SessionConnect.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/TetrisGame normal i386
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D09F3B900000000000000EE
+t1292497849
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSound.h
+c000000004CC41985000000000000128E
+t1287920005
+s4750
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004D09F3B2000000000001A384
+t1292497842
+s107396
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D09F3B20000000000025CE0
+t1292497842
+s154848
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC400730000000000000A22
+t1287913587
+s2594
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h
+c000000004CC3E8CB000000000000A75E
+t1287907531
+s42846
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004CC4022900000000000064F9
+t1287914025
+s25849
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004CC402290000000000001F41
+t1287914025
+s8001
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004D09F3B3000000000000DA88
+t1292497843
+s55944
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BD2501F0000000000025B59
+t1272074271
+s154457
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BD2501F0000000000003F84
+t1272074271
+s16260
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004D09F3B3000000000000DB14
+t1292497843
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CVDisplayLink.h
+c000000004CC413110000000000000025
+t1287918353
+s37
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC4130B00000000000000BF
+t1287918347
+s191
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D09F3B400000000000A3C74
+t1292497844
+s670836
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/Availability.h
+c000000004A11A9B300000000000019DB
+t1242671539
+s6619
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/inttypes.h
+c000000004BBD2CE900000000000027D1
+t1270689001
+s10193
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/objc/objc.h
+c000000004CC31CFD0000000000000A2F
+t1287855357
+s2607
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stddef.h
+c000000004BBD2CE90000000000001404
+t1270689001
+s5124
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libz.dylib
+c000000004D09F3B80000000000005D2C
+t1292497848
+s23852
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004B5FA877000000000000A5E0
+t1264560247
+s42464
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.h
+c000000004FBF5308000000000000034F
+t1337938696
+s847
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"BlockSprite.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m
+c000000004FCB81E40000000000001597
+t1338737124
+s5527
+i"BlockManage.h"
+i"GameMainLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.h
+c000000004FBB98800000000000000420
+t1337694336
+s1056
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m
+c000000004FF255BE00000000000009AA
+t1341281726
+s2474
+i"BlockSprite.h"
+i"BlockManage.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.h
+c000000004FBF6CA0000000000000014C
+t1337945248
+s332
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"ButtonSelect.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m
+c000000004FBF82DE00000000000004D4
+t1337950942
+s1236
+i"ButtonLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.h
+c000000004FBF6D9C000000000000012C
+t1337945500
+s300
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"GameMainLayer.h"
+i"GameSelectLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m
+c000000004FBF82DE0000000000000877
+t1337950942
+s2167
+i"ButtonSelect.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.h
+c000000004FBF6CA00000000000000166
+t1337945248
+s358
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m
+c000000004FBF7E480000000000000382
+t1337949768
+s898
+i"DrawingManager.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.h
+c000000004FC37015000000000000016A
+t1338208277
+s362
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m
+c000000004FBF82DE000000000000044D
+t1337950942
+s1101
+i"GameClock.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.h
+c000000004FBF00C20000000000000228
+t1337917634
+s552
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"GameMainLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m
+c000000004FF256AB0000000000000402
+t1341281963
+s1026
+i"GameController.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.h
+c000000004FBF82DE0000000000000137
+t1337950942
+s311
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"GameSelectLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m
+c000000004FBF819A00000000000007A4
+t1337950618
+s1956
+i"GameEndLayer.h"
+i"GameMainLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.h
+c000000004FBF7F820000000000000389
+t1337950082
+s905
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"BlockManage.h"
+i"GameController.h"
+i"DrawingManager.h"
+i"GameClock.h"
+i"GameScoreLayer.h"
+i"ButtonLayer.h"
+i"GameEndLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m
+c00000000502B628500000000000015FB
+t1345020549
+s5627
+i"GameMainLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.h
+c000000004FBEF4080000000000000170
+t1337914376
+s368
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m
+c000000004FBEF47400000000000008F3
+t1337914484
+s2291
+i"GameScoreLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.h
+c000000004FBF85A6000000000000015E
+t1337951654
+s350
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"DrawingManager.h"
+i"GameMainLayer.h"
+i"SimpleAudioEngine.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m
+c000000004FF255EB000000000000088A
+t1341281771
+s2186
+i"GameSelectLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.h
+c000000004FC368A800000000000000E2
+t1338206376
+s226
+i<Foundation/Foundation.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m
+c000000004FC368A800000000000000D0
+t1338206376
+s208
+i"SessionConnect.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.h
+c000000004FB5C7A000000000000001A2
+t1337313184
+s418
+i"cocos2d.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m
+c000000004FBF87F00000000000000501
+t1337952240
+s1281
+i"Tetris_3AppDelegate.h"
+i"GameSelectLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/gameDefine.h
+c000000004FBF858C0000000000000536
+t1337951628
+s1334
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m
+c000000004FB5C7A0000000000000012D
+t1337313184
+s301
+i<Cocoa/Cocoa.h>
+i"cocos2d.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/English.lproj/InfoPlist.strings
+c000000004FB5C7A0000000000000002D
+t1337313184
+s45
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/English.lproj/MainMenu.xib
+c000000004FBB71EE000000000000EED9
+t1337684462
+s61145
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/Tetris_3_Prefix.pch
+c000000004FB5C7A00000000000000099
+t1337313184
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/fps_images.png
+c000000004FB5C7A0000000000000183B
+t1337313184
+s6203
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/bg_Particle.plist
+c000000004FBE29B00000000000001750
+t1337862576
+s5968
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/bg_Sound.m4v
+c000000004FBF477E000000000035F93D
+t1337935742
+s3537213
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/block.png
+c000000004FB5C7A00000000000000D68
+t1337313184
+s3432
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app
+t1345020595
+s102
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app.dSYM
+t2
+s0
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Info.plist
+t1345020595
+s947
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/MacOS/TetrisGame
+t2
+s0
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/PkgInfo
+t1345020595
+s8
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1345020595
+s92
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/English.lproj/MainMenu.nib
+t1345020595
+s9257
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/bg_Particle.plist
+t1345020595
+s5968
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/bg_Sound.m4v
+t1345020596
+s3537213
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/block.png
+t1345020595
+s3432
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/fps_images.png
+t1345020595
+s6203
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/icon.icns
+t1345020596
+s244496
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/test.plist
+t1345020595
+s10407
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/libcocos2d.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/BlockManage.o
+t1345020599
+s25832
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/BlockSprite.o
+t1345020599
+s20020
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/ButtonLayer.o
+t1345020599
+s12620
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/ButtonSelect.o
+t1345020599
+s14248
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/DrawingManager.o
+t1345020599
+s9548
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameClock.o
+t1345020599
+s13540
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameController.o
+t1345020599
+s24716
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameEndLayer.o
+t1345020599
+s13652
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameMainLayer.o
+t1345020599
+s27624
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameScoreLayer.o
+t1345020599
+s14196
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameSelectLayer.o
+t1345020599
+s15384
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/SessionConnect.o
+t1345020599
+s984
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/TetrisGame
+t2
+s0
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/TetrisGame.LinkFileList
+c00000000502B62B3000000000000082B
+t1345020595
+s2091
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/Tetris_3AppDelegate.o
+t1345020598
+s18924
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/main.o
+t1345020598
+s2556
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/BlockManage.o
+t1345020598
+s38476
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/BlockSprite.o
+t1345020597
+s30716
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/ButtonLayer.o
+t1345020598
+s17428
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/ButtonSelect.o
+t1345020598
+s20916
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/DrawingManager.o
+t1345020598
+s12204
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameClock.o
+t1345020598
+s17876
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameController.o
+t1345020598
+s31736
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameEndLayer.o
+t1345020598
+s20428
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameMainLayer.o
+t1345020597
+s41764
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameScoreLayer.o
+t1345020598
+s19552
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameSelectLayer.o
+t1345020598
+s22812
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/SessionConnect.o
+t1345020598
+s1436
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/TetrisGame
+t1345020598
+s1162864
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/TetrisGame.LinkFileList
+c00000000502B62B30000000000000847
+t1345020595
+s2119
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/Tetris_3AppDelegate.o
+t1345020597
+s31516
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/main.o
+t1345020597
+s3452
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/icon.icns
+c000000004FBFB92B000000000003BB10
+t1337964843
+s244496
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/CocosDenshion/CocosDenshion/CDAudioManager.h
+c000000004FB5C7A0000000000000251D
+t1337313184
+s9501
+i"CocosDenshion.h"
+i<AVFoundation/AVFoundation.h>
+i"CDXMacOSXSupport.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/CocosDenshion/CocosDenshion/CDConfig.h
+c000000004FB5C7A00000000000000A9A
+t1337313184
+s2714
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/CocosDenshion/CocosDenshion/CDOpenALSupport.h
+c000000004FB5C7A00000000000000CF9
+t1337313184
+s3321
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<CoreFoundation/CFURL.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/CocosDenshion/CocosDenshion/CocosDenshion.h
+c000000004FB5C7A00000000000003924
+t1337313184
+s14628
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<AudioToolbox/AudioToolbox.h>
+i<Foundation/Foundation.h>
+i"CDConfig.h"
+i"CDOpenALSupport.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/CocosDenshion/CocosDenshion/SimpleAudioEngine.h
+c000000004FB5C7A00000000000000EE0
+t1337313184
+s3808
+i"CDAudioManager.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/CocosDenshion/CocosDenshionExtras/CDXMacOSXSupport.h
+c000000004FB5C7A000000000000022E0
+t1337313184
+s8928
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<AppKit/NSSound.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCAction.h
+c000000004FB5C7A00000000000001773
+t1337313184
+s6003
+i<sys/time.h>
+i<Foundation/Foundation.h>
+i"ccTypes.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionCamera.h
+c000000004FB5C7A000000000000009DD
+t1337313184
+s2525
+i"CCActionInterval.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionEase.h
+c000000004FB5C7A00000000000001671
+t1337313184
+s5745
+i"CCActionInterval.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionGrid.h
+c000000004FB5C7A00000000000001492
+t1337313184
+s5266
+i"CCActionInterval.h"
+i"CCActionInstant.h"
+i"CCGrid.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionGrid3D.h
+c000000004FB5C7A00000000000001A8A
+t1337313184
+s6794
+i"CCActionGrid.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionInstant.h
+c000000004FB5C7A00000000000001487
+t1337313184
+s5255
+i"CCAction.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionInterval.h
+c000000004FB5C7A00000000000003683
+t1337313184
+s13955
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionManager.h
+c000000004FB5C7A00000000000000F48
+t1337313184
+s3912
+i"CCAction.h"
+i"Support/ccCArray.h"
+i"Support/uthash.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionPageTurn3D.h
+c000000004FB5C7A00000000000000644
+t1337313184
+s1604
+i"CCActionGrid3D.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionProgressTimer.h
+c000000004FB5C7A0000000000000088D
+t1337313184
+s2189
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCActionInterval.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionTiledGrid.h
+c000000004FB5C7A00000000000001A23
+t1337313184
+s6691
+i"CCActionGrid.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCActionTween.h
+c000000004FB5C7A00000000000000931
+t1337313184
+s2353
+i<Foundation/Foundation.h>
+i"CCActionInterval.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCAnimation.h
+c000000004FB5C7A00000000000000C70
+t1337313184
+s3184
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCAnimationCache.h
+c000000004FB5C7A000000000000008FE
+t1337313184
+s2302
+i<Foundation/Foundation.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCAtlasNode.h
+c000000004FB5C7A00000000000000CEC
+t1337313184
+s3308
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCBlockSupport.h
+c000000004FB5C7A0000000000000066F
+t1337313184
+s1647
+i<Foundation/Foundation.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCCamera.h
+c000000004FB5C7A00000000000000CA5
+t1337313184
+s3237
+i"CCNode.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCConfiguration.h
+c000000004FB5C7A00000000000000E06
+t1337313184
+s3590
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCDirector.h
+c000000004FB5C7A00000000000002676
+t1337313184
+s9846
+i"ccConfig.h"
+i"ccTypes.h"
+i"Platforms/CCGL.h"
+i"CCProtocols.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCDrawingPrimitives.h
+c000000004FB5C7A00000000000000C53
+t1337313184
+s3155
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCGrabber.h
+c000000004FB5C7A000000000000005E4
+t1337313184
+s1508
+i"Platforms/CCGL.h"
+i<Foundation/Foundation.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCGrid.h
+c000000004FB5C7A00000000000000E5A
+t1337313184
+s3674
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCLabelAtlas.h
+c000000004FB5C7A000000000000009F1
+t1337313184
+s2545
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCLabelBMFont.h
+c000000004FB5C7A00000000000001534
+t1337313184
+s5428
+i"CCSpriteBatchNode.h"
+i"Support/uthash.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCLabelTTF.h
+c000000004FB5C7A00000000000000E56
+t1337313184
+s3670
+i"CCTexture2D.h"
+i"CCSprite.h"
+i"Platforms/CCNS.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCLayer.h
+c000000004FB5C7A000000000000023BB
+t1337313184
+s9147
+i<Availability.h>
+i<UIKit/UIKit.h>
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/Mac/CCEventDispatcher.h"
+i"CCProtocols.h"
+i"CCNode.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCMenu.h
+c000000004FB5C7A00000000000000BA6
+t1337313184
+s2982
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCMenuItem.h
+c000000004FB5C7A000000000000036C4
+t1337313184
+s14020
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCMotionStreak.h
+c000000004FB5C7A00000000000000B2A
+t1337313184
+s2858
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCNode.h
+c000000004FB5C7A00000000000004790
+t1337313184
+s18320
+i<Availability.h>
+i"Platforms/CCGL.h"
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"ccConfig.h"
+i"Support/CCArray.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCParallaxNode.h
+c000000004FB5C7A00000000000000784
+t1337313184
+s1924
+i"CCNode.h"
+i"Support/ccCArray.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCParticleExamples.h
+c000000004FB5C7A00000000000000AF1
+t1337313184
+s2801
+i<Availability.h>
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCParticleSystem.h
+c000000004FB5C7A000000000000037E0
+t1337313184
+s14304
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCParticleSystemPoint.h
+c000000004FB5C7A00000000000000867
+t1337313184
+s2151
+i<Availability.h>
+i"CCParticleSystem.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCParticleSystemQuad.h
+c000000004FB5C7A00000000000000A1C
+t1337313184
+s2588
+i"CCParticleSystem.h"
+i"ccConfig.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCProgressTimer.h
+c000000004FB5C7A00000000000000B48
+t1337313184
+s2888
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCProtocols.h
+c000000004FB5C7A00000000000000FBC
+t1337313184
+s4028
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCRenderTexture.h
+c000000004FB5C7A00000000000000F4B
+t1337313184
+s3915
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCRibbon.h
+c000000004FB5C7A00000000000000FD9
+t1337313184
+s4057
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"Platforms/CCGL.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCScene.h
+c000000004FB5C7A00000000000000697
+t1337313184
+s1687
+i"CCNode.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCScheduler.h
+c000000004FB5C7A0000000000000186A
+t1337313184
+s6250
+i"Support/uthash.h"
+i"ccTypes.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCSprite.h
+c000000004FB5C7A00000000000002F37
+t1337313184
+s12087
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCSpriteBatchNode.h
+c000000004FB5C7A000000000000014AD
+t1337313184
+s5293
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCSpriteFrame.h
+c000000004FB5C7A00000000000000DF0
+t1337313184
+s3568
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCSpriteFrameCache.h
+c000000004FB5C7A00000000000001258
+t1337313184
+s4696
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTMXLayer.h
+c000000004FB5C7A0000000000000186A
+t1337313184
+s6250
+i"CCAtlasNode.h"
+i"CCSpriteBatchNode.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTMXObjectGroup.h
+c000000004FB5C7A000000000000008F2
+t1337313184
+s2290
+i"CCNode.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTMXTiledMap.h
+c000000004FB5C7A0000000000000143F
+t1337313184
+s5183
+i"CCNode.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTMXXMLParser.h
+c000000004FB5C7A000000000000016F8
+t1337313184
+s5880
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTexture2D.h
+c000000004FB5C7A00000000000003019
+t1337313184
+s12313
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTextureAtlas.h
+c000000004FB5C7A0000000000000159A
+t1337313184
+s5530
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTextureCache.h
+c000000004FB5C7A000000000000015E0
+t1337313184
+s5600
+i<Availability.h>
+i<CoreGraphics/CGImage.h>
+i<Foundation/Foundation.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTexturePVR.h
+c000000004FB5C7A00000000000001127
+t1337313184
+s4391
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"CCTexture2D.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTileMapAtlas.h
+c000000004FB5C7A00000000000000BA7
+t1337313184
+s2983
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTransition.h
+c000000004FB5C7A00000000000002155
+t1337313184
+s8533
+i"CCScene.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTransitionPageTurn.h
+c000000004FB5C7A00000000000000917
+t1337313184
+s2327
+i"CCTransition.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/CCTransitionRadial.h
+c000000004FB5C7A00000000000000630
+t1337313184
+s1584
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCActionProgressTimer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/CCGL.h
+c000000004FB5C7A00000000000000C19
+t1337313184
+s3097
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGL.h>
+i"iOS/glu.h"
+i"iOS/EAGLView.h"
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<Cocoa/Cocoa.h>
+i"Mac/MacGLView.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/CCNS.h
+c000000004FB5C7A00000000000000C35
+t1337313184
+s3125
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/Mac/CCDirectorMac.h
+c000000004FB5C7A00000000000000D2F
+t1337313184
+s3375
+i<Availability.h>
+i<QuartzCore/CVDisplayLink.h>
+i"../../CCDirector.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/Mac/CCEventDispatcher.h
+c000000004FB5C7A0000000000000208B
+t1337313184
+s8331
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"MacGLView.h"
+i"../../Support/uthash.h"
+i"../../Support/utlist.h"
+i"../../ccConfig.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/Mac/MacGLView.h
+c000000004FB5C7A00000000000000BAD
+t1337313184
+s2989
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"../../ccConfig.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/Mac/MacWindow.h
+c000000004FB5C7A0000000000000064B
+t1337313184
+s1611
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h
+c000000004FB5C7A00000000000001FDD
+t1337313184
+s8157
+i<Availability.h>
+i"../../CCDirector.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h
+c000000004FB5C7A00000000000000BC3
+t1337313184
+s3011
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.h
+c000000004FB5C7A00000000000001111
+t1337313184
+s4369
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"EAGLView.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/iOS/CCTouchHandler.h
+c000000004FB5C7A00000000000000D99
+t1337313184
+s3481
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/iOS/EAGLView.h
+c000000004FB5C7A00000000000001B6A
+t1337313184
+s7018
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ESRenderer.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/iOS/ESRenderer.h
+c000000004FB5C7A0000000000000085B
+t1337313184
+s2139
+i<Availability.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Platforms/iOS/glu.h
+c000000004FB5C7A0000000000000030D
+t1337313184
+s781
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Support/CCArray.h
+c000000004FB5C7A00000000000000D04
+t1337313184
+s3332
+i"ccCArray.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Support/CCFileUtils.h
+c000000004FB5C7A0000000000000080F
+t1337313184
+s2063
+i<Foundation/Foundation.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Support/CCProfiling.h
+c000000004FB5C7A000000000000006E9
+t1337313184
+s1769
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Support/CGPointExtension.h
+c000000004FB5C7A00000000000001FF8
+t1337313184
+s8184
+i<Availability.h>
+i<CoreGraphics/CGGeometry.h>
+i<Foundation/Foundation.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004FB5C7A000000000000011A7
+t1337313184
+s4519
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Support/TGAlib.h
+c000000004FB5C7A00000000000000444
+t1337313184
+s1092
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Support/ccCArray.h
+c000000004FB5C7A000000000000035A0
+t1337313184
+s13728
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Support/ccUtils.h
+c000000004FB5C7A00000000000000206
+t1337313184
+s518
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Support/uthash.h
+c000000004FB5C7A0000000000000FEC9
+t1337313184
+s65225
+i<string.h>
+i<stddef.h>
+i<inttypes.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/Support/utlist.h
+c000000004FB5C7A00000000000009078
+t1337313184
+s36984
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/ccConfig.h
+c000000004FB5C7A00000000000002CCE
+t1337313184
+s11470
+i<Availability.h>
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/ccMacros.h
+c000000004FB5C7A00000000000002188
+t1337313184
+s8584
+i<math.h>
+i"ccConfig.h"
+i<Foundation/Foundation.h>
+i<Availability.h>
+i"Platforms/Mac/MacWindow.h"
+i"Platforms/iOS/CCDirectorIOS.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/ccTypes.h
+c000000004FB5C7A000000000000018C9
+t1337313184
+s6345
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+i"Platforms/CCGL.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/libs/cocos2d/cocos2d.h
+c000000004FB5C7A000000000000010E5
+t1337313184
+s4325
+i<Availability.h>
+i"ccConfig.h"
+i"CCActionManager.h"
+i"CCAction.h"
+i"CCActionInstant.h"
+i"CCActionInterval.h"
+i"CCActionEase.h"
+i"CCActionCamera.h"
+i"CCActionTween.h"
+i"CCActionEase.h"
+i"CCActionTiledGrid.h"
+i"CCActionGrid3D.h"
+i"CCActionGrid.h"
+i"CCActionProgressTimer.h"
+i"CCActionPageTurn3D.h"
+i"CCAnimation.h"
+i"CCAnimationCache.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteBatchNode.h"
+i"CCSpriteFrameCache.h"
+i"CCLabelTTF.h"
+i"CCLabelBMFont.h"
+i"CCLabelAtlas.h"
+i"CCParticleSystem.h"
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+i"CCParticleExamples.h"
+i"CCTexture2D.h"
+i"CCTexturePVR.h"
+i"CCTextureCache.h"
+i"CCTextureAtlas.h"
+i"CCTransition.h"
+i"CCTransitionPageTurn.h"
+i"CCTransitionRadial.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCBlockSupport.h"
+i"CCCamera.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCAtlasNode.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCParallaxNode.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCConfiguration.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+i"Platforms/iOS/CCTouchDispatcher.h"
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/iOS/CCTouchHandler.h"
+i"Platforms/iOS/EAGLView.h"
+i"Platforms/iOS/CCDirectorIOS.h"
+i"Platforms/Mac/MacGLView.h"
+i"Platforms/Mac/CCDirectorMac.h"
+i"Support/OpenGL_Internal.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccCArray.h"
+i"Support/CCArray.h"
+i"Support/ccUtils.h"
+i"Support/CCProfiling.h"
+i"gameDefine.h"
+
+N/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/test.plist
+c000000004FBE2A0200000000000028A7
+t1337862658
+s10407
+
+N/var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch.pth
+t1345020597
+s11911120
+
+N/var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch.pth
+t1345020597
+s11010980
+
+NResources/Info.plist
+c000000004FB5C7A000000000000003EE
+t1337313184
+s1006
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies366713405#366713405#0(0"0(0#1#0"8663056032#0"0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/BlockManage.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713399.135700
+e366713399.382744
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/BlockManage.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@95"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m366713399#366713399#0(0"0(0#0#87"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m8635434752#1891"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/BlockManage.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/BlockSprite.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.979847
+e366713399.135609
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/BlockSprite.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@95"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m366713398#366713399#0(0"0(0#0#87"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m8636754528#1891"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/BlockSprite.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/ButtonLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713399.728468
+e366713399.866825
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/ButtonLayer.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@95"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m366713399#366713399#0(0"0(0#0#87"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m8639172224#1891"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/ButtonLayer.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/ButtonSelect.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713399.625519
+e366713399.801523
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/ButtonSelect.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@96"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m366713399#366713399#0(0"0(0#0#88"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m8648096832#1893"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/ButtonSelect.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/DrawingManager.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713399.321003
+e366713399.450568
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/DrawingManager.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@98"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m366713399#366713399#0(0"0(0#0#90"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m8654488512#1897"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/DrawingManager.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameClock.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713399.382858
+e366713399.535682
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameClock.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@93"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m366713399#366713399#0(0"0(0#0#85"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m8648365056#1887"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameClock.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameController.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713399.159154
+e366713399.320909
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameController.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@98"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m366713399#366713399#0(0"0(0#0#90"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m8631644832#1897"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameController.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameEndLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713399.801623
+e366713399.953536
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameEndLayer.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@96"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m366713399#366713399#0(0"0(0#0#88"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m8637371840#1893"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameEndLayer.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameMainLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.922858
+e366713399.159060
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameMainLayer.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@97"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m366713398#366713399#0(0"0(0#0#89"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m8652159392#1895"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameMainLayer.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameScoreLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713399.450663
+e366713399.625425
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameScoreLayer.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@98"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m366713399#366713399#0(0"0(0#0#90"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m8640352416#1897"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameScoreLayer.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameSelectLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713399.535784
+e366713399.728378
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameSelectLayer.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@99"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m366713399#366713399#0(0"0(0#0#91"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m8654825920#1899"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/GameSelectLayer.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/SessionConnect.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713399.866921
+e366713399.920277
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/SessionConnect.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@98"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m366713399#366713399#0(0"0(0#0#90"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m8636781344#1897"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/SessionConnect.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/Tetris_3AppDelegate.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.678889
+e366713398.843444
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/Tetris_3AppDelegate.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@103"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m366713398#366713398#0(0"0(0#0#95"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m8644404192#1907"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/Tetris_3AppDelegate.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/main.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.843633
+e366713398.922735
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/main.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@88"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m366713398#366713398#0(0"0(0#0#80"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m8660690112#1877"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/main.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/BlockManage.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713397.925561
+e366713398.218971
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/BlockManage.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@95"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m366713397#366713398#0(0"0(0#0#87"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m8626261696#1897"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockManage.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/BlockManage.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/BlockSprite.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713397.786098
+e366713397.925463
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/BlockSprite.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@95"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m366713397#366713397#0(0"0(0#0#87"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m8646299584#1897"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/BlockSprite.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/BlockSprite.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/ButtonLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.497583
+e366713398.640827
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/ButtonLayer.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@95"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m366713398#366713398#0(0"0(0#0#87"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m8655833248#1897"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonLayer.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/ButtonLayer.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/ButtonSelect.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.338060
+e366713398.516640
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/ButtonSelect.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@96"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m366713398#366713398#0(0"0(0#0#88"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m8640345312#1899"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/ButtonSelect.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/ButtonSelect.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/DrawingManager.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.130634
+e366713398.216208
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/DrawingManager.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@98"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m366713398#366713398#0(0"0(0#0#90"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m8646254336#1903"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/DrawingManager.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/DrawingManager.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameClock.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.216309
+e366713398.337957
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameClock.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@93"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m366713398#366713398#0(0"0(0#0#85"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m8642285248#1893"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameClock.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameClock.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameController.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713397.947882
+e366713398.130452
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameController.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@98"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m366713397#366713398#0(0"0(0#0#90"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m8649609184#1903"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameController.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameController.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameEndLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.516746
+e366713398.678792
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameEndLayer.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@96"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m366713398#366713398#0(0"0(0#0#88"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m8654028288#1899"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameEndLayer.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameEndLayer.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameMainLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713397.723308
+e366713397.947785
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameMainLayer.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@97"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m366713397#366713397#0(0"0(0#0#89"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m8652794592#1901"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameMainLayer.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameMainLayer.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameScoreLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.219064
+e366713398.328111
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameScoreLayer.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@98"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m366713398#366713398#0(0"0(0#0#90"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m8640098752#1903"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameScoreLayer.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameScoreLayer.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameSelectLayer.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.328202
+e366713398.497486
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameSelectLayer.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@99"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m366713398#366713398#0(0"0(0#0#91"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m8661022432#1905"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/GameSelectLayer.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/GameSelectLayer.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/SessionConnect.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713398.640925
+e366713398.687885
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/SessionConnect.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@98"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m366713398#366713398#0(0"0(0#0#90"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m8648207264#1903"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/SessionConnect.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/SessionConnect.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/Tetris_3AppDelegate.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713397.526790
+e366713397.785867
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/Tetris_3AppDelegate.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@103"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m366713397#366713397#0(0"0(0#0#95"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m8640356032#1913"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/Tetris_3AppDelegate.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/Tetris_3AppDelegate.o0#
+
+CCompileC build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/main.o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713397.528269
+e366713397.723211
+r1
+xCompileC
+xbuild/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/main.o
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@88"Compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m366713397#366713397#0(0"0(0#0#80"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m8629070112#1883"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -include /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Classes/main.m -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/English.lproj/MainMenu.xib
+s366713395.587735
+e366713395.958282
+r1
+xCompileXIB
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/English.lproj/MainMenu.xib
+o2012-08-15 16:49:55.893 ibtool[4526:607] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o2012-08-15 16:49:55.896 ibtool[4526:607] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+lSLF07#2@47"CompileXIB Resources/English.lproj/MainMenu.xib366713395#366713395#0(320"2012-08-15 16:49:55.893 ibtool[4526:607] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***2012-08-15 16:49:55.896 ibtool[4526:607] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***0(0#0#102"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/English.lproj/MainMenu.xib8642323968#460"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/English.lproj/MainMenu.nib /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyPlistFile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/bg_Particle.plist bg_Particle.plist
+s366713395.716116
+e366713395.888035
+r1
+xCopyPlistFile
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/bg_Particle.plist
+xbg_Particle.plist
+lSLF07#2@22"Copy bg_Particle.plist366713395#366713395#0(0"0(0#0#83"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/bg_Particle.plist8648856672#305"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist bg_Particle.plist --outdir /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources0#
+
+CCopyPlistFile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/test.plist test.plist
+s366713395.888133
+e366713395.945351
+r1
+xCopyPlistFile
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/test.plist
+xtest.plist
+lSLF07#2@15"Copy test.plist366713395#366713395#0(0"0(0#0#76"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/test.plist8631740800#298"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist test.plist --outdir /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources0#
+
+CCopyStringsFile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/English.lproj/InfoPlist.strings Resources/English.lproj/InfoPlist.strings
+s366713395.582679
+e366713395.709894
+r1
+xCopyStringsFile
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/English.lproj/InfoPlist.strings
+xResources/English.lproj/InfoPlist.strings
+lSLF07#2@46"Copy Resources/English.lproj/InfoPlist.strings366713395#366713395#0(0"0(0#0#107"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/English.lproj/InfoPlist.strings8602923488#434"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Resources/English.lproj/InfoPlist.strings --outdir /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Release/TetrisGame.app/Contents/Resources/bg_Sound.m4v bg_Sound.m4v
+s366713395.945433
+e366713396.251082
+r1
+xCpResource
+xbuild/Release/TetrisGame.app/Contents/Resources/bg_Sound.m4v
+xbg_Sound.m4v
+lSLF07#2@17"Copy bg_Sound.m4v366713395#366713396#0(0"0(0#0#78"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/bg_Sound.m4v8639078528#449"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/bg_Sound.m4v /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources0#
+
+CCpResource build/Release/TetrisGame.app/Contents/Resources/block.png block.png
+s366713395.711728
+e366713395.722607
+r1
+xCpResource
+xbuild/Release/TetrisGame.app/Contents/Resources/block.png
+xblock.png
+lSLF07#2@14"Copy block.png366713395#366713395#0(0"0(0#0#75"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/block.png8652144576#446"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/block.png /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources0#
+
+CCpResource build/Release/TetrisGame.app/Contents/Resources/fps_images.png Resources/fps_images.png
+s366713395.710050
+e366713395.722486
+r1
+xCpResource
+xbuild/Release/TetrisGame.app/Contents/Resources/fps_images.png
+xResources/fps_images.png
+lSLF07#2@29"Copy Resources/fps_images.png366713395#366713395#0(0"0(0#0#90"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/fps_images.png8655318880#461"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/fps_images.png /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources0#
+
+CCpResource build/Release/TetrisGame.app/Contents/Resources/icon.icns icon.icns
+s366713395.946023
+e366713396.045379
+r1
+xCpResource
+xbuild/Release/TetrisGame.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns366713395#366713396#0(0"0(0#0#75"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/icon.icns8636614944#446"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/icon.icns /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/MacOS/TetrisGame normal "x86_64 i386"
+r0
+
+CGenerateDSYMFile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app.dSYM /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/MacOS/TetrisGame
+r0
+
+CLd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/TetrisGame normal i386
+s366713405.113822
+e366713405.171935
+r0
+xLd
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/TetrisGame
+xnormal
+xi386
+old: warning: in /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Debug/libcocos2d.a, file was built for unsupported file format which is not the architecture being linked (i386)
+oUndefined symbols:
+o  ".objc_class_name_CCParticleSystemQuad", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@CCParticleSystemQuad in GameMainLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCParticleSystemQuad in GameSelectLayer.o
+o  ".objc_class_name_CCFadeTo", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@CCFadeTo in GameSelectLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCFadeTo in ButtonSelect.o
+o      literal-pointer@__OBJC@__cls_refs@CCFadeTo in ButtonLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCFadeTo in GameEndLayer.o
+o  ".objc_class_name_CCScene", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@CCScene in GameMainLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCScene in GameSelectLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCScene in ButtonLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCScene in GameEndLayer.o
+o  ".objc_class_name_CCDirector", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@CCDirector in Tetris_3AppDelegate.o
+o      literal-pointer@__OBJC@__cls_refs@CCDirector in GameMainLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCDirector in GameSelectLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCDirector in ButtonSelect.o
+o      literal-pointer@__OBJC@__cls_refs@CCDirector in ButtonLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCDirector in GameEndLayer.o
+o  ".objc_class_name_CCMenu", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@CCMenu in GameSelectLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCMenu in ButtonSelect.o
+o      literal-pointer@__OBJC@__cls_refs@CCMenu in ButtonLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCMenu in GameEndLayer.o
+o  ".objc_class_name_CCLabelTTF", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameClock.o
+o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameScoreLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameSelectLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in ButtonSelect.o
+o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in ButtonLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameEndLayer.o
+o  "_ccDrawCircle", referenced from:
+o      -[ButtonLayer draw] in ButtonLayer.o
+o  ".objc_class_name_CCRepeatForever", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@CCRepeatForever in GameSelectLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCRepeatForever in ButtonSelect.o
+o      literal-pointer@__OBJC@__cls_refs@CCRepeatForever in ButtonLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCRepeatForever in GameEndLayer.o
+o  ".objc_class_name_CCLayerColor", referenced from:
+o      .objc_class_name_ButtonSelect in ButtonSelect.o
+o  ".objc_class_name_CCTransitionRotoZoom", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@CCTransitionRotoZoom in GameSelectLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCTransitionRotoZoom in ButtonSelect.o
+o      literal-pointer@__OBJC@__cls_refs@CCTransitionRotoZoom in GameEndLayer.o
+o  ".objc_class_name_CCMenuItemLabel", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in GameSelectLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in ButtonSelect.o
+o      literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in ButtonLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in GameEndLayer.o
+o  ".objc_class_name_CCSprite", referenced from:
+o      .objc_class_name_BlockSprite in BlockSprite.o
+o      .objc_class_name_BlockCouple in BlockSprite.o
+o  ".objc_class_name_CCLayer", referenced from:
+o      .objc_class_name_GameMainLayer in GameMainLayer.o
+o      .objc_class_name_GameController in GameController.o
+o      .objc_class_name_DrawingManager in DrawingManager.o
+o      .objc_class_name_GameClock in GameClock.o
+o      .objc_class_name_GameScoreLayer in GameScoreLayer.o
+o      .objc_class_name_GameSelectLayer in GameSelectLayer.o
+o      .objc_class_name_ButtonLayer in ButtonLayer.o
+o      .objc_class_name_GameEndLayer in GameEndLayer.o
+o  ".objc_class_name_CCSequence", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@CCSequence in GameSelectLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCSequence in ButtonSelect.o
+o      literal-pointer@__OBJC@__cls_refs@CCSequence in ButtonLayer.o
+o      literal-pointer@__OBJC@__cls_refs@CCSequence in GameEndLayer.o
+o  "_ccDrawLine", referenced from:
+o      -[DrawingManager drawRect:] in DrawingManager.o
+o      -[DrawingManager drawRect:] in DrawingManager.o
+o      -[DrawingManager drawRect:] in DrawingManager.o
+o      -[DrawingManager drawRect:] in DrawingManager.o
+o  ".objc_class_name_MacGLView", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@MacGLView in main.o
+old: symbol(s) not found
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF07#2@149"Link /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/TetrisGame366713405#366713405#0(4946"ld: warning: in /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Debug/libcocos2d.a, file was built for unsupported file format which is not the architecture being linked (i386)Undefined symbols:  ".objc_class_name_CCParticleSystemQuad", referenced from:      literal-pointer@__OBJC@__cls_refs@CCParticleSystemQuad in GameMainLayer.o      literal-pointer@__OBJC@__cls_refs@CCParticleSystemQuad in GameSelectLayer.o  ".objc_class_name_CCFadeTo", referenced from:      literal-pointer@__OBJC@__cls_refs@CCFadeTo in GameSelectLayer.o      literal-pointer@__OBJC@__cls_refs@CCFadeTo in ButtonSelect.o      literal-pointer@__OBJC@__cls_refs@CCFadeTo in ButtonLayer.o      literal-pointer@__OBJC@__cls_refs@CCFadeTo in GameEndLayer.o  ".objc_class_name_CCScene", referenced from:      literal-pointer@__OBJC@__cls_refs@CCScene in GameMainLayer.o      literal-pointer@__OBJC@__cls_refs@CCScene in GameSelectLayer.o      literal-pointer@__OBJC@__cls_refs@CCScene in ButtonLayer.o      literal-pointer@__OBJC@__cls_refs@CCScene in GameEndLayer.o  ".objc_class_name_CCDirector", referenced from:      literal-pointer@__OBJC@__cls_refs@CCDirector in Tetris_3AppDelegate.o      literal-pointer@__OBJC@__cls_refs@CCDirector in GameMainLayer.o      literal-pointer@__OBJC@__cls_refs@CCDirector in GameSelectLayer.o      literal-pointer@__OBJC@__cls_refs@CCDirector in ButtonSelect.o      literal-pointer@__OBJC@__cls_refs@CCDirector in ButtonLayer.o      literal-pointer@__OBJC@__cls_refs@CCDirector in GameEndLayer.o  ".objc_class_name_CCMenu", referenced from:      literal-pointer@__OBJC@__cls_refs@CCMenu in GameSelectLayer.o      literal-pointer@__OBJC@__cls_refs@CCMenu in ButtonSelect.o      literal-pointer@__OBJC@__cls_refs@CCMenu in ButtonLayer.o      literal-pointer@__OBJC@__cls_refs@CCMenu in GameEndLayer.o  ".objc_class_name_CCLabelTTF", referenced from:      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameClock.o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameScoreLayer.o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameSelectLayer.o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in ButtonSelect.o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in ButtonLayer.o      literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameEndLayer.o  "_ccDrawCircle", referenced from:      -[ButtonLayer draw] in ButtonLayer.o  ".objc_class_name_CCRepeatForever", referenced from:      literal-pointer@__OBJC@__cls_refs@CCRepeatForever in GameSelectLayer.o      literal-pointer@__OBJC@__cls_refs@CCRepeatForever in ButtonSelect.o      literal-pointer@__OBJC@__cls_refs@CCRepeatForever in ButtonLayer.o      literal-pointer@__OBJC@__cls_refs@CCRepeatForever in GameEndLayer.o  ".objc_class_name_CCLayerColor", referenced from:      .objc_class_name_ButtonSelect in ButtonSelect.o  ".objc_class_name_CCTransitionRotoZoom", referenced from:      literal-pointer@__OBJC@__cls_refs@CCTransitionRotoZoom in GameSelectLayer.o      literal-pointer@__OBJC@__cls_refs@CCTransitionRotoZoom in ButtonSelect.o      literal-pointer@__OBJC@__cls_refs@CCTransitionRotoZoom in GameEndLayer.o  ".objc_class_name_CCMenuItemLabel", referenced from:      literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in GameSelectLayer.o      literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in ButtonSelect.o      literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in ButtonLayer.o      literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in GameEndLayer.o  ".objc_class_name_CCSprite", referenced from:      .objc_class_name_BlockSprite in BlockSprite.o      .objc_class_name_BlockCouple in BlockSprite.o  ".objc_class_name_CCLayer", referenced from:      .objc_class_name_GameMainLayer in GameMainLayer.o      .objc_class_name_GameController in GameController.o      .objc_class_name_DrawingManager in DrawingManager.o      .objc_class_name_GameClock in GameClock.o      .objc_class_name_GameScoreLayer in GameScoreLayer.o      .objc_class_name_GameSelectLayer in GameSelectLayer.o      .objc_class_name_ButtonLayer in ButtonLayer.o      .objc_class_name_GameEndLayer in GameEndLayer.o  ".objc_class_name_CCSequence", referenced from:      literal-pointer@__OBJC@__cls_refs@CCSequence in GameSelectLayer.o      literal-pointer@__OBJC@__cls_refs@CCSequence in ButtonSelect.o      literal-pointer@__OBJC@__cls_refs@CCSequence in ButtonLayer.o      literal-pointer@__OBJC@__cls_refs@CCSequence in GameEndLayer.o  "_ccDrawLine", referenced from:      -[DrawingManager drawRect:] in DrawingManager.o      -[DrawingManager drawRect:] in DrawingManager.o      -[DrawingManager drawRect:] in DrawingManager.o      -[DrawingManager drawRect:] in DrawingManager.o  ".objc_class_name_MacGLView", referenced from:      literal-pointer@__OBJC@__cls_refs@MacGLView in main.old: symbol(s) not foundclang: error: linker command failed with exit code 1 (use -v to see invocation)77(22@187"In /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Debug/libcocos2d.a, file was built for unsupported file format which is not the architecture being linked (i386)366713405#0#181#0(6@0"366713405#0#0#0#0#0"0(4@57"".objc_class_name_CCParticleSystemQuad", referenced from:366713405#200#60#0(6@0"366713405#0#0#0#0#0"0(13@73"Literal-pointer@__OBJC@__cls_refs@CCParticleSystemQuad in GameMainLayer.o366713405#260#80#0(6@0"366713405#0#0#0#0#0"0(13@75"Literal-pointer@__OBJC@__cls_refs@CCParticleSystemQuad in GameSelectLayer.o366713405#340#82#0(6@0"366713405#0#0#0#0#0"0(4@45"".objc_class_name_CCFadeTo", referenced from:366713405#422#48#0(6@0"366713405#0#0#0#0#0"0(13@63"Literal-pointer@__OBJC@__cls_refs@CCFadeTo in GameSelectLayer.o366713405#470#70#0(6@0"366713405#0#0#0#0#0"0(13@60"Literal-pointer@__OBJC@__cls_refs@CCFadeTo in ButtonSelect.o366713405#540#67#0(6@0"366713405#0#0#0#0#0"0(13@59"Literal-pointer@__OBJC@__cls_refs@CCFadeTo in ButtonLayer.o366713405#607#66#0(6@0"366713405#0#0#0#0#0"0(13@60"Literal-pointer@__OBJC@__cls_refs@CCFadeTo in GameEndLayer.o366713405#673#67#0(6@0"366713405#0#0#0#0#0"0(4@44"".objc_class_name_CCScene", referenced from:366713405#740#47#0(6@0"366713405#0#0#0#0#0"0(13@60"Literal-pointer@__OBJC@__cls_refs@CCScene in GameMainLayer.o366713405#787#67#0(6@0"366713405#0#0#0#0#0"0(13@62"Literal-pointer@__OBJC@__cls_refs@CCScene in GameSelectLayer.o366713405#854#69#0(6@0"366713405#0#0#0#0#0"0(13@58"Literal-pointer@__OBJC@__cls_refs@CCScene in ButtonLayer.o366713405#923#65#0(6@0"366713405#0#0#0#0#0"0(13@59"Literal-pointer@__OBJC@__cls_refs@CCScene in GameEndLayer.o366713405#988#66#0(6@0"366713405#0#0#0#0#0"0(4@47"".objc_class_name_CCDirector", referenced from:366713405#1054#50#0(6@0"366713405#0#0#0#0#0"0(13@69"Literal-pointer@__OBJC@__cls_refs@CCDirector in Tetris_3AppDelegate.o366713405#1104#76#0(6@0"366713405#0#0#0#0#0"0(13@63"Literal-pointer@__OBJC@__cls_refs@CCDirector in GameMainLayer.o366713405#1180#70#0(6@0"366713405#0#0#0#0#0"0(13@65"Literal-pointer@__OBJC@__cls_refs@CCDirector in GameSelectLayer.o366713405#1250#72#0(6@0"366713405#0#0#0#0#0"0(13@62"Literal-pointer@__OBJC@__cls_refs@CCDirector in ButtonSelect.o366713405#1322#69#0(6@0"366713405#0#0#0#0#0"0(13@61"Literal-pointer@__OBJC@__cls_refs@CCDirector in ButtonLayer.o366713405#1391#68#0(6@0"366713405#0#0#0#0#0"0(13@62"Literal-pointer@__OBJC@__cls_refs@CCDirector in GameEndLayer.o366713405#1459#69#0(6@0"366713405#0#0#0#0#0"0(4@43"".objc_class_name_CCMenu", referenced from:366713405#1528#46#0(6@0"366713405#0#0#0#0#0"0(13@61"Literal-pointer@__OBJC@__cls_refs@CCMenu in GameSelectLayer.o366713405#1574#68#0(6@0"366713405#0#0#0#0#0"0(13@58"Literal-pointer@__OBJC@__cls_refs@CCMenu in ButtonSelect.o366713405#1642#65#0(6@0"366713405#0#0#0#0#0"0(13@57"Literal-pointer@__OBJC@__cls_refs@CCMenu in ButtonLayer.o366713405#1707#64#0(6@0"366713405#0#0#0#0#0"0(13@58"Literal-pointer@__OBJC@__cls_refs@CCMenu in GameEndLayer.o366713405#1771#65#0(6@0"366713405#0#0#0#0#0"0(4@47"".objc_class_name_CCLabelTTF", referenced from:366713405#1836#50#0(6@0"366713405#0#0#0#0#0"0(13@59"Literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameClock.o366713405#1886#66#0(6@0"366713405#0#0#0#0#0"0(13@64"Literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameScoreLayer.o366713405#1952#71#0(6@0"366713405#0#0#0#0#0"0(13@65"Literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameSelectLayer.o366713405#2023#72#0(6@0"366713405#0#0#0#0#0"0(13@62"Literal-pointer@__OBJC@__cls_refs@CCLabelTTF in ButtonSelect.o366713405#2095#69#0(6@0"366713405#0#0#0#0#0"0(13@61"Literal-pointer@__OBJC@__cls_refs@CCLabelTTF in ButtonLayer.o366713405#2164#68#0(6@0"366713405#0#0#0#0#0"0(13@62"Literal-pointer@__OBJC@__cls_refs@CCLabelTTF in GameEndLayer.o366713405#2232#69#0(6@0"366713405#0#0#0#0#0"0(4@33""_ccDrawCircle", referenced from:366713405#2301#36#0(6@0"366713405#0#0#0#0#0"0(13@36"-[ButtonLayer draw] in ButtonLayer.o366713405#2337#43#0(6@0"366713405#0#0#0#0#0"0(4@52"".objc_class_name_CCRepeatForever", referenced from:366713405#2380#55#0(6@0"366713405#0#0#0#0#0"0(13@70"Literal-pointer@__OBJC@__cls_refs@CCRepeatForever in GameSelectLayer.o366713405#2435#77#0(6@0"366713405#0#0#0#0#0"0(13@67"Literal-pointer@__OBJC@__cls_refs@CCRepeatForever in ButtonSelect.o366713405#2512#74#0(6@0"366713405#0#0#0#0#0"0(13@66"Literal-pointer@__OBJC@__cls_refs@CCRepeatForever in ButtonLayer.o366713405#2586#73#0(6@0"366713405#0#0#0#0#0"0(13@67"Literal-pointer@__OBJC@__cls_refs@CCRepeatForever in GameEndLayer.o366713405#2659#74#0(6@0"366713405#0#0#0#0#0"0(4@49"".objc_class_name_CCLayerColor", referenced from:366713405#2733#52#0(6@0"366713405#0#0#0#0#0"0(13@47".objc_class_name_ButtonSelect in ButtonSelect.o366713405#2785#54#0(6@0"366713405#0#0#0#0#0"0(4@57"".objc_class_name_CCTransitionRotoZoom", referenced from:366713405#2839#60#0(6@0"366713405#0#0#0#0#0"0(13@75"Literal-pointer@__OBJC@__cls_refs@CCTransitionRotoZoom in GameSelectLayer.o366713405#2899#82#0(6@0"366713405#0#0#0#0#0"0(13@72"Literal-pointer@__OBJC@__cls_refs@CCTransitionRotoZoom in ButtonSelect.o366713405#2981#79#0(6@0"366713405#0#0#0#0#0"0(13@72"Literal-pointer@__OBJC@__cls_refs@CCTransitionRotoZoom in GameEndLayer.o366713405#3060#79#0(6@0"366713405#0#0#0#0#0"0(4@52"".objc_class_name_CCMenuItemLabel", referenced from:366713405#3139#55#0(6@0"366713405#0#0#0#0#0"0(13@70"Literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in GameSelectLayer.o366713405#3194#77#0(6@0"366713405#0#0#0#0#0"0(13@67"Literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in ButtonSelect.o366713405#3271#74#0(6@0"366713405#0#0#0#0#0"0(13@66"Literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in ButtonLayer.o366713405#3345#73#0(6@0"366713405#0#0#0#0#0"0(13@67"Literal-pointer@__OBJC@__cls_refs@CCMenuItemLabel in GameEndLayer.o366713405#3418#74#0(6@0"366713405#0#0#0#0#0"0(4@45"".objc_class_name_CCSprite", referenced from:366713405#3492#48#0(6@0"366713405#0#0#0#0#0"0(13@45".objc_class_name_BlockSprite in BlockSprite.o366713405#3540#52#0(6@0"366713405#0#0#0#0#0"0(13@45".objc_class_name_BlockCouple in BlockSprite.o366713405#3592#52#0(6@0"366713405#0#0#0#0#0"0(4@44"".objc_class_name_CCLayer", referenced from:366713405#3644#47#0(6@0"366713405#0#0#0#0#0"0(13@49".objc_class_name_GameMainLayer in GameMainLayer.o366713405#3691#56#0(6@0"366713405#0#0#0#0#0"0(13@51".objc_class_name_GameController in GameController.o366713405#3747#58#0(6@0"366713405#0#0#0#0#0"0(13@51".objc_class_name_DrawingManager in DrawingManager.o366713405#3805#58#0(6@0"366713405#0#0#0#0#0"0(13@41".objc_class_name_GameClock in GameClock.o366713405#3863#48#0(6@0"366713405#0#0#0#0#0"0(13@51".objc_class_name_GameScoreLayer in GameScoreLayer.o366713405#3911#58#0(6@0"366713405#0#0#0#0#0"0(13@53".objc_class_name_GameSelectLayer in GameSelectLayer.o366713405#3969#60#0(6@0"366713405#0#0#0#0#0"0(13@45".objc_class_name_ButtonLayer in ButtonLayer.o366713405#4029#52#0(6@0"366713405#0#0#0#0#0"0(13@47".objc_class_name_GameEndLayer in GameEndLayer.o366713405#4081#54#0(6@0"366713405#0#0#0#0#0"0(4@47"".objc_class_name_CCSequence", referenced from:366713405#4135#50#0(6@0"366713405#0#0#0#0#0"0(13@65"Literal-pointer@__OBJC@__cls_refs@CCSequence in GameSelectLayer.o366713405#4185#72#0(6@0"366713405#0#0#0#0#0"0(13@62"Literal-pointer@__OBJC@__cls_refs@CCSequence in ButtonSelect.o366713405#4257#69#0(6@0"366713405#0#0#0#0#0"0(13@61"Literal-pointer@__OBJC@__cls_refs@CCSequence in ButtonLayer.o366713405#4326#68#0(6@0"366713405#0#0#0#0#0"0(13@62"Literal-pointer@__OBJC@__cls_refs@CCSequence in GameEndLayer.o366713405#4394#69#0(6@0"366713405#0#0#0#0#0"0(4@31""_ccDrawLine", referenced from:366713405#4463#34#0(6@0"366713405#0#0#0#0#0"0(13@47"-[DrawingManager drawRect:] in DrawingManager.o366713405#4497#54#0(6@0"366713405#0#0#0#0#0"0(13@47"-[DrawingManager drawRect:] in DrawingManager.o366713405#4551#54#0(6@0"366713405#0#0#0#0#0"0(13@47"-[DrawingManager drawRect:] in DrawingManager.o366713405#4605#54#0(6@0"366713405#0#0#0#0#0"0(13@47"-[DrawingManager drawRect:] in DrawingManager.o366713405#4659#54#0(6@0"366713405#0#0#0#0#0"0(4@46"".objc_class_name_MacGLView", referenced from:366713405#4713#49#0(6@0"366713405#0#0#0#0#0"0(13@53"Literal-pointer@__OBJC@__cls_refs@MacGLView in main.o366713405#4762#60#0(6@0"366713405#0#0#0#0#0"0(13@19"Symbol(s) not found366713405#4822#24#0(6@0"366713405#0#0#0#0#0"0(13@79"Clang: error: linker command failed with exit code 1 (use -v to see invocation)366713405#4846#80#0(6@0"366713405#0#0#0#0#0"0(0#0#0"8635720192#925"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/clang -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -L/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Debug -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -filelist /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/TetrisGame.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework OpenGL -framework QuartzCore -lcocos2d -framework ApplicationServices -lz -framework OpenAL -framework AudioToolbox -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/i386/TetrisGame1#
+
+CLd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/TetrisGame normal x86_64
+s366713398.687981
+e366713398.979743
+r1
+xLd
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/TetrisGame
+xnormal
+xx86_64
+lSLF07#2@151"Link /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/TetrisGame366713398#366713398#0(0"0(0#0#0"8638955552#931"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -L/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Debug -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -filelist /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/TetrisGame.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework OpenGL -framework QuartzCore -lcocos2d -framework ApplicationServices -lz -framework OpenAL -framework AudioToolbox -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/Objects-normal/x86_64/TetrisGame0#
+
+CProcessInfoPlistFile /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Info.plist Resources/Info.plist
+s366713395.560668
+e366713395.582575
+r1
+xProcessInfoPlistFile
+x/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist366713395#366713395#0(0"0(0#0#86"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/Info.plist8614165728#403"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch.pth Resources/Tetris_3_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713396.252375
+e366713397.526661
+r1
+xProcessPCH
+x/var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch.pth
+xResources/Tetris_3_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@40"Precompile Resources/Tetris_3_Prefix.pch366713396#366713397#0(0"0(0#0#95"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/Tetris_3_Prefix.pch8654210144#1753"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/i386 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/Tetris_3_Prefix.pch -o /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-atucfteioechwmhhhohulhsffaln/Tetris_3_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch.pth Resources/Tetris_3_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s366713396.251315
+e366713397.323936
+r1
+xProcessPCH
+x/var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch.pth
+xResources/Tetris_3_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@40"Precompile Resources/Tetris_3_Prefix.pch366713396#366713397#0(0"0(0#0#95"/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/Tetris_3_Prefix.pch8654857760#1757"    cd /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-generated-files.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-own-target-headers.hmap -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-all-target-headers.hmap -iquote /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/TetrisGame-project-headers.hmap -F/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/include -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources/x86_64 -I/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/TetrisGame.build/Release/TetrisGame.build/DerivedSources -c /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/Tetris_3_Prefix.pch -o /var/folders/kZ/kZhjTjLKF-agswBETBc+w++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tetris_3_Prefix-guxhahmrwqoblhfogubzosqneywu/Tetris_3_Prefix.pch.pth0#
+
+CTouch /Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/build/Release/TetrisGame.app
+r0
+

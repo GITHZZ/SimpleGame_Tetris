@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = CEBB4BBC15556CA400E6F16C /* TetrisGame */;
+		activeTarget = E076E4F01225E97900DE0DA2 /* TetrisGame */;
+		addToTargets = (
+			E076E4F01225E97900DE0DA2 /* TetrisGame */,
+		);
+		breakpoints = (
+			CE153A1C156E566D000F1F91 /* GameMainLayer.m:167 */,
+			CE153A1E156E566E000F1F91 /* GameMainLayer.m:179 */,
+			CE8C7A11156FA792006B91D1 /* GameMainLayer.m:59 */,
+		);
+		codeSenseManager = CEBB4BD215556CCE00E6F16C /* Code sense */;
+		executables = (
+			CEBB4BBC15556CA400E6F16C /* TetrisGame */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					393,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					505,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 367137198;
+			PBXWorkspaceStateSaveDate = 367137198;
+		};
+		perUserProjectItems = {
+			CE225F7A15E211E7005B5E71 /* PBXTextBookmark */ = CE225F7A15E211E7005B5E71 /* PBXTextBookmark */;
+			CE225F7B15E211E7005B5E71 /* PlistBookmark */ = CE225F7B15E211E7005B5E71 /* PlistBookmark */;
+			CE225F7C15E211E7005B5E71 /* PlistBookmark */ = CE225F7C15E211E7005B5E71 /* PlistBookmark */;
+			CE225F7D15E211E7005B5E71 /* PBXBookmark */ = CE225F7D15E211E7005B5E71 /* PBXBookmark */;
+			CE225F7E15E211E7005B5E71 /* PBXTextBookmark */ = CE225F7E15E211E7005B5E71 /* PBXTextBookmark */;
+			CE225F7F15E211E7005B5E71 /* PlistBookmark */ = CE225F7F15E211E7005B5E71 /* PlistBookmark */;
+			CE225F8015E211E7005B5E71 /* PlistBookmark */ = CE225F8015E211E7005B5E71 /* PlistBookmark */;
+			CE7E232B15DB99E300D2BB3D /* PBXTextBookmark */ = CE7E232B15DB99E300D2BB3D /* PBXTextBookmark */;
+			CE7E234115DB9A4C00D2BB3D /* PBXTextBookmark */ = CE7E234115DB9A4C00D2BB3D /* PBXTextBookmark */;
+			CEC09DAE15B6EF1100A30721 /* PBXTextBookmark */ = CEC09DAE15B6EF1100A30721 /* PBXTextBookmark */;
+			CEEE760615A31F7D007B4F7E /* PBXTextBookmark */ = CEEE760615A31F7D007B4F7E /* PBXTextBookmark */;
+		};
+		sourceControlManager = CEBB4BD115556CCE00E6F16C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CE153A1C156E566D000F1F91 /* GameMainLayer.m:167 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CEBB4BD815556D0900E6F16C /* GameMainLayer.m */;
+		functionName = "-lineIsClear";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 167;
+		modificationTime = 362974740.997634;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	CE153A1E156E566E000F1F91 /* GameMainLayer.m:179 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CEBB4BD815556D0900E6F16C /* GameMainLayer.m */;
+		functionName = "-lineIsClear";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 179;
+		location = TetrisGame;
+		modificationTime = 362974741.3353;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CE153AA0156E5D22000F1F91 /* DrawingManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 409}}";
+			sepNavSelRange = "{224, 0}";
+			sepNavVisRange = "{0, 352}";
+			sepNavWindowFrame = "{{15, 4}, {786, 774}}";
+		};
+	};
+	CE153AA1156E5D22000F1F91 /* DrawingManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 520}}";
+			sepNavSelRange = "{885, 0}";
+			sepNavVisRange = "{69, 823}";
+			sepNavWindowFrame = "{{494, 4}, {786, 774}}";
+		};
+	};
+	CE153B40156E5F62000F1F91 /* GameClock.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 448}}";
+			sepNavSelRange = "{247, 0}";
+			sepNavVisRange = "{0, 356}";
+		};
+	};
+	CE153B41156E5F62000F1F91 /* GameClock.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 572}}";
+			sepNavSelRange = "{971, 0}";
+			sepNavVisRange = "{133, 956}";
+			sepNavWindowFrame = "{{459, 4}, {786, 774}}";
+		};
+	};
+	CE225F7A15E211E7005B5E71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B4515012C3AEBE0007F742 /* CCDirectorMac.m */;
+		name = "CCDirectorMac.m: 170";
+		rLen = 0;
+		rLoc = 4980;
+		rType = 0;
+		vrLen = 789;
+		vrLoc = 4407;
+	};
+	CE225F7B15E211E7005B5E71 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CE153B73156E618A000F1F91 /* test.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/test.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	CE225F7C15E211E7005B5E71 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = CE153B69156E6142000F1F91 /* bg_Particle.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/bg_Particle.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	CE225F7D15E211E7005B5E71 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CEBB4BD315556CDC00E6F16C /* block.png */;
+	};
+	CE225F7E15E211E7005B5E71 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E02A83EB129F01DF00341C97 /* Tetris_3_Prefix.pch */;
+		name = "Tetris_3_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 153;
+		vrLoc = 0;
+	};
+	CE225F7F15E211E7005B5E71 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = E02A83EC129F01DF00341C97 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	CE225F8015E211E7005B5E71 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = E02A83EC129F01DF00341C97 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/user/学习/ios游戏开发/Cocos2D游戏开发/TetrisGame/Resources/Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	CE393B301573A02800F245B8 /* SessionConnect.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 397}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 220}";
+		};
+	};
+	CE393B311573A02800F245B8 /* SessionConnect.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 397}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 202}";
+		};
+	};
+	CE42B7B31567DD8A00CE35EA /* GameController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 390}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRange = "{3, 533}";
+			sepNavWindowFrame = "{{15, 4}, {786, 774}}";
+		};
+	};
+	CE42B7B41567DD8A00CE35EA /* GameController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 754}}";
+			sepNavSelRange = "{899, 0}";
+			sepNavVisRange = "{456, 558}";
+			sepNavWindowFrame = "{{494, 4}, {786, 774}}";
+		};
+	};
+	CE7E232B15DB99E300D2BB3D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E02A83D3129F000100341C97 /* Tetris_3AppDelegate.m */;
+		name = "Tetris_3AppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 454;
+		rType = 0;
+		vrLen = 847;
+		vrLoc = 170;
+	};
+	CE7E234115DB9A4C00D2BB3D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEBB4BD815556D0900E6F16C /* GameMainLayer.m */;
+		name = "GameMainLayer.m: 46";
+		rLen = 0;
+		rLoc = 906;
+		rType = 0;
+		vrLen = 1097;
+		vrLoc = 949;
+	};
+	CE8C78B2156FA1C6006B91D1 /* ButtonSelect.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 448}}";
+			sepNavSelRange = "{189, 53}";
+			sepNavVisRange = "{0, 294}";
+		};
+	};
+	CE8C78B3156FA1C6006B91D1 /* ButtonSelect.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 845}}";
+			sepNavSelRange = "{133, 0}";
+			sepNavVisRange = "{0, 1279}";
+		};
+	};
+	CE8C78EA156FA30C006B91D1 /* ButtonLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 442}}";
+			sepNavSelRange = "{132, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	CE8C78EB156FA30C006B91D1 /* ButtonLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 637}}";
+			sepNavSelRange = "{949, 0}";
+			sepNavVisRange = "{158, 1011}";
+		};
+	};
+	CE8C7A11156FA792006B91D1 /* GameMainLayer.m:59 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CEBB4BD815556D0900E6F16C /* GameMainLayer.m */;
+		functionName = "-init";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 59;
+		location = TetrisGame;
+		modificationTime = 362974743.084349;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CE9516F91563E59300E44665 /* BlockManage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 465}}";
+			sepNavSelRange = "{330, 0}";
+			sepNavVisRange = "{0, 841}";
+			sepNavWindowFrame = "{{27, 4}, {786, 774}}";
+		};
+	};
+	CE9516FA1563E59300E44665 /* BlockManage.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 2873}}";
+			sepNavSelRange = "{1996, 0}";
+			sepNavVisRange = "{1375, 471}";
+			sepNavWindowFrame = "{{37, 4}, {786, 774}}";
+		};
+	};
+	CEA30F1A156FB606007838C6 /* GameEndLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 409}}";
+			sepNavSelRange = "{133, 0}";
+			sepNavVisRange = "{0, 305}";
+		};
+	};
+	CEA30F1B156FB606007838C6 /* GameEndLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 884}}";
+			sepNavSelRange = "{1279, 0}";
+			sepNavVisRange = "{343, 1280}";
+		};
+	};
+	CEA6BB1F156E6F81006BE286 /* GameScoreLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 448}}";
+			sepNavSelRange = "{354, 0}";
+			sepNavVisRange = "{0, 362}";
+		};
+	};
+	CEA6BB20156E6F81006BE286 /* GameScoreLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {727, 1001}}";
+			sepNavSelRange = "{2023, 9}";
+			sepNavVisRange = "{686, 1593}";
+			sepNavWindowFrame = "{{494, 4}, {786, 774}}";
+		};
+	};
+	CEA79854156F12C900830CC3 /* GameSelectLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 436}}";
+			sepNavSelRange = "{314, 0}";
+			sepNavVisRange = "{0, 344}";
+			sepNavWindowFrame = "{{15, 4}, {629, 770}}";
+		};
+	};
+	CEA79855156F12C900830CC3 /* GameSelectLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 1027}}";
+			sepNavSelRange = "{1541, 0}";
+			sepNavVisRange = "{1131, 1009}";
+			sepNavWindowFrame = "{{494, 4}, {786, 774}}";
+		};
+	};
+	CEAA07491564E40D00215813 /* gameDefine.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 910}}";
+			sepNavSelRange = "{666, 0}";
+			sepNavVisRange = "{247, 519}";
+			sepNavWindowFrame = "{{279, 4}, {786, 774}}";
+		};
+	};
+	CEBB4BBC15556CA400E6F16C /* TetrisGame */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+			{
+				active = YES;
+				name = MallocStackLogging;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TetrisGame;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CEBB4BD115556CCE00E6F16C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CEBB4BD215556CCE00E6F16C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CEBB4BD715556D0900E6F16C /* GameMainLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 611}}";
+			sepNavSelRange = "{185, 0}";
+			sepNavVisRange = "{186, 713}";
+			sepNavWindowFrame = "{{494, 4}, {786, 774}}";
+		};
+	};
+	CEBB4BD815556D0900E6F16C /* GameMainLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 2873}}";
+			sepNavSelRange = "{906, 0}";
+			sepNavVisRange = "{949, 1097}";
+			sepNavWindowFrame = "{{474, 4}, {806, 774}}";
+		};
+	};
+	CEBB4BD915556D0900E6F16C /* BlockSprite.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 611}}";
+			sepNavSelRange = "{491, 0}";
+			sepNavVisRange = "{0, 681}";
+			sepNavWindowFrame = "{{494, 4}, {786, 774}}";
+		};
+	};
+	CEBB4BDA15556D0900E6F16C /* BlockSprite.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {900, 1638}}";
+			sepNavSelRange = "{372, 0}";
+			sepNavVisRange = "{154, 522}";
+			sepNavWindowFrame = "{{468, 4}, {806, 774}}";
+		};
+	};
+	CEC09DAE15B6EF1100A30721 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E02A83D2129F000100341C97 /* Tetris_3AppDelegate.h */;
+		name = "Tetris_3AppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 412;
+		vrLoc = 0;
+	};
+	CEEE760615A31F7D007B4F7E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE42B7B41567DD8A00CE35EA /* GameController.m */;
+		name = "GameController.m: 43";
+		rLen = 0;
+		rLoc = 899;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 456;
+	};
+	E01E663C121CA00A001A484F /* cocos2d */ = {
+		activeExec = 0;
+	};
+	E02A83D2129F000100341C97 /* Tetris_3AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 430}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 412}";
+		};
+	};
+	E02A83D3129F000100341C97 /* Tetris_3AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 715}}";
+			sepNavSelRange = "{454, 0}";
+			sepNavVisRange = "{170, 847}";
+		};
+	};
+	E02A83EB129F01DF00341C97 /* Tetris_3_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 416}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 153}";
+		};
+	};
+	E02A83F2129F01DF00341C97 /* fps_images.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {786, 774}}";
+		};
+	};
+	E02A83FB129F023B00341C97 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 641}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 301}";
+			sepNavWindowFrame = "{{15, 4}, {786, 774}}";
+		};
+	};
+	E076E4F01225E97900DE0DA2 /* TetrisGame */ = {
+		activeExec = 0;
+		executables = (
+			CEBB4BBC15556CA400E6F16C /* TetrisGame */,
+		);
+	};
+	E076E6201225EC1E00DE0DA2 /* LICENSE.cocosdenshion */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {589, 639}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1106}";
+		};
+	};
+	E0B450CF12C3AEBD0007F742 /* CCActionInterval.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 17615}}";
+			sepNavSelRange = "{21373, 26}";
+			sepNavVisRange = "{21262, 955}";
+		};
+	};
+	E0B450FB12C3AEBE0007F742 /* CCMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 6877}}";
+			sepNavSelRange = "{1636, 23}";
+			sepNavVisRange = "{9121, 911}";
+		};
+	};
+	E0B450FD12C3AEBE0007F742 /* CCMenuItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1517, 10140}}";
+			sepNavSelRange = "{8725, 31}";
+			sepNavVisRange = "{3159, 1190}";
+		};
+	};
+	E0B4510112C3AEBE0007F742 /* CCNode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 11895}}";
+			sepNavSelRange = "{17768, 57}";
+			sepNavVisRange = "{17943, 1634}";
+		};
+	};
+	E0B4511812C3AEBE0007F742 /* CCSprite.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 12584}}";
+			sepNavSelRange = "{5570, 39}";
+			sepNavVisRange = "{4929, 1258}";
+		};
+	};
+	E0B4513912C3AEBE0007F742 /* ccTypes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 3341}}";
+			sepNavSelRange = "{2042, 5}";
+			sepNavVisRange = "{1492, 968}";
+		};
+	};
+	E0B4513A12C3AEBE0007F742 /* cocos2d.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {859, 2379}}";
+			sepNavSelRange = "{4062, 0}";
+			sepNavVisRange = "{3167, 1158}";
+			sepNavWindowFrame = "{{450, 4}, {786, 774}}";
+		};
+	};
+	E0B4513B12C3AEBE0007F742 /* cocos2d.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {686, 641}}";
+			sepNavSelRange = "{964, 74}";
+			sepNavVisRange = "{0, 1369}";
+			sepNavWindowFrame = "{{15, 4}, {786, 774}}";
+		};
+	};
+	E0B4515012C3AEBE0007F742 /* CCDirectorMac.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 6058}}";
+			sepNavSelRange = "{4980, 0}";
+			sepNavVisRange = "{4407, 789}";
+		};
+	};
+	E0B4515C12C3AEBE0007F742 /* ccCArray.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 5681}}";
+			sepNavSelRange = "{6327, 0}";
+			sepNavVisRange = "{6158, 527}";
+		};
+	};
+	E0B4516312C3AEBE0007F742 /* CGPointExtension.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {727, 4355}}";
+			sepNavSelRange = "{2444, 43}";
+			sepNavVisRange = "{1837, 926}";
+			sepNavWindowFrame = "{{15, 4}, {786, 774}}";
+		};
+	};
+}
